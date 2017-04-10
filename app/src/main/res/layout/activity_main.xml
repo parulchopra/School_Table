@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parulchopra.kids_table.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MATH TABLE"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/text"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:hint=" Enter Your Value"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:id="@+id/edit"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text"
+    android:layout_alignLeft="@+id/text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="50dp"
+        android:text="Show Table"
+        android:id="@+id/button"
+        android:background="@color/colorAccent"
+        android:textSize="10dp"
+        android:layout_alignRight="@+id/edit"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
