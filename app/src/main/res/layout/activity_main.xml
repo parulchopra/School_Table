@@ -17,28 +17,30 @@
         android:textStyle="bold" />
 
     <EditText
-    android:layout_width="280dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint=" Enter Your Value"
         android:layout_marginTop="50dp"
-        android:textSize="30dp"
+        android:textSize="45dp"
         android:id="@+id/edit"
+        android:textColor="@color/colorAccent"
         android:textStyle="bold"
         android:inputType="number"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/text"
-    android:layout_alignLeft="@+id/text"/>
+    />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/round_shape"
+        android:layout_below="@+id/edit"
         android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
         android:text="Show Table"
         android:id="@+id/button"
-        android:background="@color/colorAccent"
-        android:textSize="10dp"
-        android:layout_alignRight="@+id/edit"
-        android:layout_alignParentRight="true"/>
+        android:textSize="30dp"
+
+       />
 
 </RelativeLayout>
